@@ -6,8 +6,8 @@
     "apps/*"
   ],
   "scripts": {
-    "dev": "bun run --filter '*' dev",
-    "build": "bun run --filter '*' build",
+    "dev": "node init && bun run --filter '*' dev",
+    "build": "node init && bun run --filter '*' build",
     "test": "bun run --filter '*' test"
   },
   "devDependencies": {
